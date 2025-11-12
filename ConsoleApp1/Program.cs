@@ -136,3 +136,35 @@
 //         }
 //     }
 // }
+
+
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Task1
+            Operators op = new Operators();
+
+            // Calling methods
+            op.Add(5, 5);
+            op.Subtract(5, 5);
+            op.Multiply(5, 5);
+            op.Divide(5, 5);
+
+            // Calling OddEvenFinder
+            op.OddEvenFinder(7);
+            op.OddEvenFinder(10);
+
+            //Task 2
+            NullOperations nullOps = new NullOperations();
+
+            nullOps.PerformNullChecks();
+
+            Console.ReadLine();
+        }
+    }
+}

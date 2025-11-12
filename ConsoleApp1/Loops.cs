@@ -8,6 +8,7 @@ namespace ConsoleApp1
         // Loops to calculate sum from 1 to N
         public void Main(String[] args)
         {
+            
             Console.Write("Enter a number (N): ");
             int N = Convert.ToInt32(Console.ReadLine());
             int sum = 0;
