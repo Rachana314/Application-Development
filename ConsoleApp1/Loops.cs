@@ -5,10 +5,10 @@ namespace ConsoleApp1
 {
     class LoopsExample
     {
-        // Loops to calculate sum from 1 to N
+       
         public void Main(String[] args)
         {
-            
+
             Console.Write("Enter a number (N): ");
             int N = Convert.ToInt32(Console.ReadLine());
             int sum = 0;
@@ -21,7 +21,6 @@ namespace ConsoleApp1
             Console.WriteLine($"Sum from 1 to {N} = {sum}");
         }
 
-        //Loop to print numbers from 1 to 20
         public void PrintNumbersUsingWhile()
         {
             int i = 1;
@@ -33,13 +32,13 @@ namespace ConsoleApp1
                 if (i % 4 == 0)
                 {
                     i++;
-                    continue; // Skip multiples of 4
+                    continue; 
                 }
 
                 if (i == 15)
                 {
                     Console.WriteLine("Reached 15 — stopping loop.");
-                    break; // Stop when number is 15
+                    break; 
                 }
 
                 Console.WriteLine(i);
